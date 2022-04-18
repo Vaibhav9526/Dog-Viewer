@@ -2,8 +2,12 @@
 
 body {
   font-family: "Bangers", cursive;
-  background-color: #04293a;
+  background: red;
+  background-image: url("https://www.pngmart.com/files/13/Elegant-Pattern-PNG-Picture.png");
   color: white;
+}
+select {
+  background: white;
 }
 img {
   height: 75vh;
@@ -13,8 +17,11 @@ img {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
 }
 h1 {
-  color: white;
+  color: black;
   text-align: center;
-  background: #064663;
   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.651);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
